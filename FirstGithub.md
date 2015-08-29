@@ -1,8 +1,11 @@
 # First File to Github
 Fernando Alarid-Escudero  
 August 28, 2015  
+Inserted a chunk in .rmd document so that it renders even when there are errors.
 
-
+```r
+knitr::opts_chunk$set(error = TRUE)
+```
 
 This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
 
